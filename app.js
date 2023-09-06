@@ -15,4 +15,4 @@ const instructorRouter = require("./routes/instructors");
 app.use("/students", studentRouter);
 app.use("/instructors", instructorRouter);
 
-app.listen(3004, () => console.log("Server running at 3004."));
+app.listen(3006, () => console.log("Server running at 3006."));
